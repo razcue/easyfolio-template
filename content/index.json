@@ -1,26 +1,207 @@
 {
-  "name": "Anaís Garcia Peña",
-  "role": "Community Manager | Product Manager",
-  "primaryContact": "email",
-  "contact": {
-    "email": "mahiagarcia@gmail.com",
-    "phone": "+5353606311",
-    "telegram": "https://t.me/anaisgarcia",
-    "linkedin": "https://www.linkedin.com/in/anaisgarcia"
-  },
-  "summary": {
-    "profile": [
-      "Accomplished, resourceful, results-driven, and highly motivated product manager and tester with over 12 years of experience within the IT sector, including more than 5 years as freelancer.",
-      "Strong foundation as analyst, knowledge of 2D graphic design, UX, and website building.",
-      "Proven ability to lead small teams, track features, and manage the development lifecycle."
-    ],
-    "managementBackground": [
-      "Experience as project manager within small teams, mostly focused on eCommerce and business websites.",
-      "Strong analytical, problem-solving, relationship-building, planning, mentoring, negotiation, teamwork, communication, coordination, and organizational skills."
-    ],
-    "technicalBackground": [
-      "Strong website management experience, with a marketing background using META as a social network publishing tool.",
-      "Expertise in building stores and small business front pages using WordPress and WooCommerce with payment gateways."
-    ]
-  }
+	"name": "Anaís Garcia Peña",
+	"role": "Community Manager | Product Manager",
+	"primaryContact": "email",
+	"contact": {
+		"email": "mahiagarcia@gmail.com",
+		"phone": "+5353606311",
+		"telegram": "https://t.me/anaisgarcia",
+		"linkedin": "https://www.linkedin.com/in/anaisgarcia"
+	},
+	"coverLetter": "I am a 39 years old woman, Cuban, with experience in the administration, support and construction of web sites using web sites builders (Drupal, WordPress); social network marketing and content management. Deep background as product manager, leading small teams and software testing, looking for new opportunities with strong foundation companies and competitive teams with well-defined roles.",
+	"skills": {
+		"tools": [
+			"Meta",
+			"GitHub",
+			"SQL",
+			"Visual Paradigm",
+			"Adobe Illustrator",
+			"Adobe Photoshop",
+			"Figma",
+			"Corel Draw",
+			"WordPress",
+			"Office Suite"
+		],
+		"languages": ["Spanish (Native)", "English (Conversational)"],
+		"methodologies": ["SCRUM"],
+		"otherSkills": [
+			"Planning",
+			"Organization",
+			"Problem-Solving",
+			"Discretion",
+			"Team Coordination"
+		]
+	},
+	"summary": {
+		"profile": [
+			"Accomplished, resourceful, results-driven, and highly motivated product manager and tester with over 12 years of experience within the IT sector, including more than 5 years as freelancer.",
+			"Strong foundation as analyst, knowledge of 2D graphic design, UX, and website building.",
+			"Proven ability to lead small teams, track features, and manage the development lifecycle."
+		],
+		"managementBackground": [
+			"Experience as project manager within small teams, mostly focused on eCommerce and business websites.",
+			"Strong analytical, problem-solving, relationship-building, planning, mentoring, negotiation, teamwork, communication, coordination, and organizational skills."
+		],
+		"technicalBackground": [
+			"Strong website management experience, with a marketing background using META as a social network publishing tool.",
+			"Expertise in building stores and small business front pages using WordPress and WooCommerce with payment gateways."
+		]
+	},
+	"portfolio": [
+		{
+			"name": "Havana Grill Website",
+			"url": "https://havanagrill.us/"
+		},
+		{
+			"name": "Aqua Bar and Grill Website",
+			"url": "https://www.aquabarandgrilllv.com/"
+		},
+		{
+			"name": "Havana Grill Facebook Page",
+			"url": "https://www.facebook.com/HavanaGrillCubanCuisineLasVegasNevada"
+		},
+		{
+			"name": "Aqua Bar and Grill Facebook Page",
+			"url": "https://www.facebook.com/aquabargrilllv"
+		}
+	],
+	"education": [
+		{
+			"title": "Bachelor in Informatics",
+			"institution": "Politécnico ‘Fernando Aguado y Rico’",
+			"date": ""
+		},
+		{
+			"title": "Computer Science Engineer",
+			"institution": "University of Informatics Sciences (UCI), Havana",
+			"date": ""
+		},
+		{
+			"title": "Diploma in Foreign Trade",
+			"institution": "Instituto de Comercio Exterior",
+			"date": "Jan 2016"
+		},
+		{
+			"title": "Air Ticketing with Amadeus",
+			"institution": "Amadeus Certified, Spain",
+			"date": "May 2015"
+		},
+		{
+			"title": "Marketing & Public Relations",
+			"institution": "FORMATUR",
+			"date": "Mar 2014"
+		},
+		{
+			"title": "Information Security",
+			"institution": "FORMATUR",
+			"date": "Dec 2013"
+		},
+		{
+			"title": "Network Administration",
+			"institution": "UCI",
+			"date": "Jan 2011"
+		},
+		{
+			"title": "Symfony Framework for PHP",
+			"institution": "UCI",
+			"date": "May 2011"
+		}
+	],
+	"languages": [
+		{ "name": "Spanish", "level": "Native" },
+		{ "name": "English", "level": "Conversational" }
+	],
+	"experience": [
+		{
+			"company": "Agency Marítima Taíná S.A.",
+			"duration": "Aug 2017 – Present",
+			"role": "Commercial Specialist",
+			"responsibilities": [
+				"Managed customer relationships and ensured effective communication to meet their logistical needs for maritime cargo transportation.",
+				"Coordinated import and export operations, including containerized goods, through international shipping lines such as HAPAG LLOYD.",
+				"Provided financial oversight for contracts and ensured compliance with international trade regulations."
+			]
+		},
+		{
+			"company": "Maprinter",
+			"duration": "Nov 2015",
+			"role": "Marketing Specialist for Imports",
+			"responsibilities": [
+				"Developed and implemented marketing strategies to promote imported products across various distribution channels.",
+				"Conducted market analysis to identify trends and opportunities for increasing brand presence and sales revenue.",
+				"Collaborated with international suppliers to streamline the import process and ensure timely delivery of goods."
+			]
+		},
+		{
+			"company": "Agencia de Viajes San Cristóbal",
+			"duration": "2014",
+			"role": "IT Specialist, Security Specialist, Assistant",
+			"responsibilities": [
+				"Provided IT support for the agency's operations, including system administration and troubleshooting.",
+				"Ensured the security of the agency's IT infrastructure by implementing measures to protect against cyber threats.",
+				"Assisted in administrative tasks and provided technical support for online booking systems."
+			]
+		},
+		{
+			"company": "Instituto Cubano del Libro",
+			"duration": "2004 – 2005",
+			"role": "IT Specialist",
+			"responsibilities": [
+				"Managed and maintained the institute's IT systems, ensuring the availability of resources for staff and researchers.",
+				"Designed and implemented solutions for data management and digitalization of archives.",
+				"Provided technical support to staff and conducted training sessions on IT best practices."
+			]
+		},
+		{
+			"company": "University of Informatics Sciences (UCI)",
+			"duration": "2006 – 2013",
+			"role": "System Analyst, IT Generalist",
+			"responsibilities": [
+				"Analyzed, designed, and maintained software solutions tailored to academic and administrative needs.",
+				"Managed IT resources, including network administration, server maintenance, and data security.",
+				"Led projects to enhance the university's IT infrastructure and improve service delivery for students and staff."
+			]
+		},
+		{
+			"company": "German Trade and Investment Promotion Office in Cuba (Freelancer)",
+			"duration": "3 months",
+			"project": "Analysis and development of Green Tech Cuba site",
+			"role": "Product Manager",
+			"technologies": [
+				"WordPress",
+				"PHP",
+				"Drupal",
+				"Visual Paradigm",
+				"Figma",
+				"GitHub"
+			],
+			"responsibilities": [
+				"Ensured the product delivered by development and design teams met the expectations of the client.",
+				"Collaborated with clients to define product objectives and strategies.",
+				"Created mockups and prototypes using Figma."
+			]
+		},
+		{
+			"company": "Havana Grill Restaurant, Las Vegas (Freelancer)",
+			"duration": "1 year",
+			"project": "Design, construction, and management of Havana Grill",
+			"role": "Analyst, software designer, web master, content manager",
+			"technologies": ["WordPress", "WooCommerce", "GoDaddy"],
+			"responsibilities": [
+				"Designed the website based on client requirements and user experience principles.",
+				"Built and deployed the eCommerce site using WooCommerce/WordPress on GoDaddy platform.",
+				"Provided ongoing content updates and technical support for the site."
+			]
+		}
+	],
+	"interests": [
+		{ "name": "Family", "icon": "IconFamily" },
+		{ "name": "Restaurants", "icon": "IconRestaurant" },
+		{ "name": "Church", "icon": "IconChurch" },
+		{ "name": "Travel", "icon": "IconTravel" }
+	],
+	"availability": {
+		"travel": "Yes",
+		"relocate": "No"
+	}
 }

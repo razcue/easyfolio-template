@@ -51,7 +51,6 @@ EasyFolio is designed to be a template for showcasing profiles as a curriculum v
 - Tasks:
   - Setup UnoCSS with Tailwind 4 preset
   - Icons using UnoCSS
-  - Fonts using UnoCSS
   - Create page config fixed component
   - Theme using UnoCSS. It should have a theme config with light/dark feel, and also include it in the page config fixed component to select themes/feel from config
 - Tech Additions:
@@ -63,7 +62,8 @@ EasyFolio is designed to be a template for showcasing profiles as a curriculum v
 - **Description**:  
   Lorem Ipsum
 - Tasks:
-  - Task One
+  - Install and configure EsLint to work alengside prettier for code quality
+  - Fonts using UnoCSS
   - Use CDN for icons and fonts, check if performance is better with local bundle or CDN, use https://esm.sh/
 - Tech Additions:
   - [Nuxt](https://nuxt.com/docs/)
