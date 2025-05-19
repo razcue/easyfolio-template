@@ -9,10 +9,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <TheHeader />
-  <TheFooter />
-  <TheConfig />
-  <TheActionsWrapper>
-    <TheBody />
-  </TheActionsWrapper>
+  <div class="max-w-[1280px] mx-auto px-8 py-8 lg:px-[10rem]">
+    <TheHeader />
+    <TheFooter />
+    <TheConfig />
+    <TheActionsWrapper>
+      <TheBody />
+    </TheActionsWrapper>
+  </div>
 </template>

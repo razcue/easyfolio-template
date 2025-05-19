@@ -8,7 +8,7 @@ const { activeTheme, activeMode, setTheme } = useTheme()
 const availableThemes = Object.keys(themes)
 
 // State for expanding or collapsing the config menu
-const isExpanded = ref(true)
+const isExpanded = ref(false)
 
 // Toggle between light and dark modes
 const toggleMode = () => {
@@ -65,7 +65,7 @@ const toggleExpand = () => {
     <select
         v-if="isExpanded"
         :class="[
-            'p-2 cursor-pointer border-[var(--color-border)] rounded bg-[var(--color-bg)] border-2 text-[var(--color-text)] focus-visible:outline-unset focus-visible:ring-0 focus-visible:border-[var(--color-border)] ',
+            'p-2 min-w-32 cursor-pointer border-[var(--color-border)] rounded bg-[var(--color-bg)] border-2 text-[var(--color-text)] focus-visible:outline-unset focus-visible:ring-0 focus-visible:border-[var(--color-border)] ',
             !(themes[activeTheme]?.light && themes[activeTheme]?.dark) && 'mt-10'
         ]"
         v-model="activeTheme"

@@ -1,0 +1,26 @@
+{
+  "name": "Anaís Garcia Peña",
+  "role": "Community Manager | Product Manager",
+  "primaryContact": "email",
+  "contact": {
+    "email": "mahiagarcia@gmail.com",
+    "phone": "+5353606311",
+    "telegram": "https://t.me/anaisgarcia",
+    "linkedin": "https://www.linkedin.com/in/anaisgarcia"
+  },
+  "summary": {
+    "profile": [
+      "Accomplished, resourceful, results-driven, and highly motivated product manager and tester with over 12 years of experience within the IT sector, including more than 5 years as freelancer.",
+      "Strong foundation as analyst, knowledge of 2D graphic design, UX, and website building.",
+      "Proven ability to lead small teams, track features, and manage the development lifecycle."
+    ],
+    "managementBackground": [
+      "Experience as project manager within small teams, mostly focused on eCommerce and business websites.",
+      "Strong analytical, problem-solving, relationship-building, planning, mentoring, negotiation, teamwork, communication, coordination, and organizational skills."
+    ],
+    "technicalBackground": [
+      "Strong website management experience, with a marketing background using META as a social network publishing tool.",
+      "Expertise in building stores and small business front pages using WordPress and WooCommerce with payment gateways."
+    ]
+  }
+}
