@@ -1,5 +1,3 @@
-import { themes } from '@/types/themes'
-
 export const useTheme = () => {
     const activeTheme = ref('default')
     const activeMode = ref('light') // Can be 'light' or 'dark'
