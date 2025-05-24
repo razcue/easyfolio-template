@@ -7,48 +7,52 @@ const { owner } = useContent();
 		<!-- Contact Info Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-at text-3xl" />
 			</template>
-			<template #heading>Contact Info</template>
-			<ul v-if="owner">
+			<template #heading
+				><h2 class="text-2xl font-bold text-gray-800">
+					Contact Info
+				</h2></template
+			>
+			<ul class="text-gray-700 space-y-2">
 				<li>
-					Email:
+					<strong>Email: </strong>
 					<a
 						:href="`mailto:${owner.contact.email}`"
-						class="underline text-green-600 transition duration-400 hover:text-green-600/65"
+						class="text-blue-600 hover:text-blue-600/55"
 					>
 						{{ owner.contact.email }}
 					</a>
 				</li>
-				<li>
-					Phone:
+				<li v-if="owner.contact.phone">
+					<strong>Phone: </strong>
 					<a
 						:href="`https://wa.me/${owner.contact.phone.replace('+', '')}`"
 						target="_blank"
 						rel="noopener"
-						class="underline text-green-600 transition duration-400 hover:text-green-600/65"
+						class="text-blue-600 hover:text-blue-600/55"
 					>
 						{{ owner.contact.phone }}
 					</a>
 				</li>
-				<li>
-					Telegram:
+				<li v-if="owner.contact.telegram">
+					<strong>Telegram: </strong>
 					<a
 						:href="owner.contact.telegram"
 						target="_blank"
 						rel="noopener"
-						class="underline text-blue-600 transition duration-400 hover:text-blue-600/65"
+						class="text-blue-600 hover:text-blue-600/55"
 					>
 						Telegram Profile
 					</a>
 				</li>
-				<li>
-					LinkedIn:
+				<li v-if="owner.contact.linkedin">
+					<strong>LinkedIn: </strong>
 					<a
 						:href="owner.contact.linkedin"
 						target="_blank"
 						rel="noopener"
-						class="underline text-blue-600 transition duration-400 hover:text-blue-600/65"
+						class="text-blue-600 hover:text-blue-600/55"
 					>
 						LinkedIn Profile
 					</a>
@@ -59,13 +63,16 @@ const { owner } = useContent();
 		<!-- Summary Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
-			</template>
-			<template #heading>Summary</template>
-			<div class="flex flex-col gap-3" v-if="owner">
+				<i class="i-tabler-align-justified text-3xl" /> </template
+			><template #heading
+				><h2 class="text-2xl font-bold text-gray-800">
+					Summary
+				</h2></template
+			>
+			<div class="flex flex-col gap-2">
 				<div>
 					<h3 class="text-lg font-semibold text-gray-800">Profile</h3>
-					<ul class="list-disc list-inside text-gray-700 space-y-2">
+					<ul class="list-disc list-inside text-gray-700">
 						<li
 							v-for="(item, index) in owner.summary.profile"
 							:key="index"
@@ -75,11 +82,11 @@ const { owner } = useContent();
 					</ul>
 				</div>
 
-				<div>
+				<div v-if="owner.summary.managementBackground">
 					<h3 class="text-lg font-semibold text-gray-800">
 						Management Background
 					</h3>
-					<ul class="list-disc list-inside text-gray-700 space-y-2">
+          <ul class="list-disc list-inside text-gray-700">
 						<li
 							v-for="(item, index) in owner.summary
 								.managementBackground"
@@ -90,11 +97,11 @@ const { owner } = useContent();
 					</ul>
 				</div>
 
-				<div>
+				<div v-if="owner.summary.technicalBackground">
 					<h3 class="text-lg font-semibold text-gray-800">
 						Technical Background
 					</h3>
-					<ul class="list-disc list-inside text-gray-700 space-y-2">
+          <ul class="list-disc list-inside text-gray-700">
 						<li
 							v-for="(item, index) in owner.summary
 								.technicalBackground"
@@ -108,20 +115,28 @@ const { owner } = useContent();
 		</PageSection>
 
 		<!-- Cover Letter Section -->
-		<PageSection>
+		<PageSection v-if="owner.coverLetter">
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-file-text text-3xl" />
 			</template>
-			<template #heading>Cover Letter</template>
+      <template #heading
+      ><h2 class="text-2xl font-bold text-gray-800">
+        Cover Letter
+      </h2></template
+      >
 			<p>{{ owner.coverLetter }}</p>
 		</PageSection>
 
 		<!-- Skills Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-tools text-3xl" />
 			</template>
-			<template #heading>Skills</template>
+      <template #heading
+      ><h2 class="text-2xl font-bold text-gray-800">
+        Skills
+      </h2></template
+      >
 			<ul>
 				<li>
 					<strong>Tools:</strong> {{ owner.skills.tools.join(", ") }}
@@ -144,7 +159,7 @@ const { owner } = useContent();
 		<!-- Portfolio Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-briefcase text-3xl" />
 			</template>
 			<template #heading>Portfolio</template>
 			<ul class="space-y-2">
@@ -164,7 +179,7 @@ const { owner } = useContent();
 		<!-- Education & Certification Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-certificate text-3xl" />
 			</template>
 			<template #heading>Education & Certification</template>
 			<ul>
@@ -178,7 +193,7 @@ const { owner } = useContent();
 		<!-- Languages Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-language text-3xl" />
 			</template>
 			<template #heading>Languages</template>
 			<ul>
@@ -191,7 +206,7 @@ const { owner } = useContent();
 		<!-- Selected Experience Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-building-skyscraper text-3xl" />
 			</template>
 			<template #heading>
 				<h2 class="text-2xl font-bold text-gray-800">
@@ -236,7 +251,7 @@ const { owner } = useContent();
 		<!-- Interests Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-heart text-3xl" />
 			</template>
 			<template #heading>Interests</template>
 			<ul class="flex flex-wrap gap-8">
@@ -274,7 +289,7 @@ const { owner } = useContent();
 		<!-- Availability to Travel Section -->
 		<PageSection>
 			<template #icon>
-				<i class="i-tabler-mail text-3xl" />
+				<i class="i-tabler-map-pin text-3xl" />
 			</template>
 			<template #heading>Availability to Travel</template>
 			<ul>
