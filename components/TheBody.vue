@@ -3,20 +3,14 @@ const { owner } = useContent();
 </script>
 
 <template>
-	<main class="relative">
+	<main class="relative pt-0 pb-14 lg:py-6">
 		<!-- Contact Info Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
 			<template #heading>Contact Info</template>
 			<ul v-if="owner">
-				<li>
-					Primary Contact:
-					<span class="font-bold text-gray-800">
-						{{ owner.primaryContact }}
-					</span>
-				</li>
 				<li>
 					Email:
 					<a
@@ -60,10 +54,10 @@ const { owner } = useContent();
 					</a>
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Summary Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -111,19 +105,19 @@ const { owner } = useContent();
 					</ul>
 				</div>
 			</div>
-		</CVSection>
+		</PageSection>
 
 		<!-- Cover Letter Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
 			<template #heading>Cover Letter</template>
 			<p>{{ owner.coverLetter }}</p>
-		</CVSection>
+		</PageSection>
 
 		<!-- Skills Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -145,10 +139,10 @@ const { owner } = useContent();
 					{{ owner.skills.otherSkills.join(", ") }}
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Portfolio Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -165,10 +159,10 @@ const { owner } = useContent();
 					</a>
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Education & Certification Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -179,10 +173,10 @@ const { owner } = useContent();
 					{{ item.date }}
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Languages Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -192,32 +186,43 @@ const { owner } = useContent();
 					<strong>{{ language.name }}:</strong> {{ language.level }}
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Selected Experience Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
-			<template #heading>Selected Experience</template>
+			<template #heading>
+				<h2 class="text-2xl font-bold text-gray-800">
+					Selected Experience
+				</h2>
+			</template>
 			<article
 				v-for="(experience, index) in owner.experience"
 				:key="index"
+				class="mb-4 border-b border-gray-200 pb-3 last:border-none last:mb-0 last:pb-0"
 			>
-				<h3>{{ experience.company }}</h3>
-				<p><strong>Duration:</strong> {{ experience.duration }}</p>
-				<p v-if="experience.role">
+				<h3 class="text-xl font-semibold text-gray-800 mb-2">
+					{{ experience.company }}
+				</h3>
+				<p class="text-gray-600">
+					<strong>Duration:</strong> {{ experience.duration }}
+				</p>
+				<p v-if="experience.role" class="text-gray-600">
 					<strong>Role:</strong> {{ experience.role }}
 				</p>
-				<p v-if="experience.project">
+				<p v-if="experience.project" class="text-gray-600">
 					<strong>Project:</strong> {{ experience.project }}
 				</p>
-				<p v-if="experience.technologies">
-					<strong>Core Technologies:</strong>
-					{{ experience.technologies.join(", ") }}
+				<p v-if="experience.technologies" class="text-gray-600">
+					<strong>Core Technologies: </strong>
+					<span>{{ experience.technologies.join(", ") }}</span>
 				</p>
-				<h4>Responsibilities/Achievements:</h4>
-				<ul>
+				<h4 class="font-bold text-gray-600">
+					Responsibilities/Achievements:
+				</h4>
+				<ul class="list-disc pl-5 text-gray-600">
 					<li
 						v-for="(task, idx) in experience.responsibilities"
 						:key="idx"
@@ -226,28 +231,48 @@ const { owner } = useContent();
 					</li>
 				</ul>
 			</article>
-		</CVSection>
+		</PageSection>
 
 		<!-- Interests Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
 			<template #heading>Interests</template>
 			<ul class="flex flex-wrap gap-8">
-				<li
-					v-for="(interest, index) in owner.interests"
-					:key="index"
-					class="flex flex-col items-center space-x-2"
-				>
-					<i :class="interest.icon + ' text-3xl'" />
-					<span class="uppercase font-bold">{{ interest.name }}</span>
+				<li class="flex flex-col items-center">
+					<i
+						v-if="owner.interests.includes('coding')"
+						class="i-tabler-braces text-3xl m-0"
+					/>
+					<span class="uppercase font-bold">Coding</span>
+				</li>
+				<li class="flex flex-col items-center">
+					<i
+						v-if="owner.interests.includes('design')"
+						class="i-tabler-pencil text-3xl m-0"
+					/>
+					<span class="uppercase font-bold">Design</span>
+				</li>
+				<li class="flex flex-col items-center">
+					<i
+						v-if="owner.interests.includes('travel')"
+						class="i-tabler-plane text-3xl m-0"
+					/>
+					<span class="uppercase font-bold">Travel</span>
+				</li>
+				<li class="flex flex-col items-center">
+					<i
+						v-if="owner.interests.includes('gaming')"
+						class="i-tabler-device-gamepad-2 text-3xl m-0"
+					/>
+					<span class="uppercase font-bold">Gaming</span>
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 
 		<!-- Availability to Travel Section -->
-		<CVSection>
+		<PageSection>
 			<template #icon>
 				<i class="i-tabler-mail text-3xl" />
 			</template>
@@ -262,6 +287,6 @@ const { owner } = useContent();
 					{{ owner.availability.relocate }}
 				</li>
 			</ul>
-		</CVSection>
+		</PageSection>
 	</main>
 </template>

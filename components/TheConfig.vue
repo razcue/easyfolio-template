@@ -25,7 +25,7 @@ const toggleExpand = () => {
 <template>
 	<div
 		:class="[
-			'fixed top-36 right-6 flex flex-col gap-2 items-end z-50',
+			'fixed top-55 right-6 min-[1170px]:right-[var(--side-to-side)] flex flex-col gap-2 items-end z-50 mt-2 mr-2',
 			isExpanded &&
 				'p-4 bg-[var(--color-bg)] text-[var(--color-text)] border-[var(--color-border)] shadow-[0_4px_6px_var(--color-shadow)] rounded-lg',
 		]"
@@ -55,7 +55,7 @@ const toggleExpand = () => {
 			<button
 				@click="toggleExpand"
 				:class="[
-					'fixed top-34 right-4 p-4 flex rounded-full cursor-pointer bg-[var(--color-primary)] text-[var(--color-text)] shadow-[0_4px_6px_var(--color-shadow)] hover:scale-105 transition-all',
+					'fixed top-55 right-4 min-[1170px]:right-[var(--side-to-side)] p-4 flex rounded-full cursor-pointer bg-[var(--color-primary)] text-[var(--color-text)] shadow-[0_4px_6px_var(--color-shadow)] hover:scale-105 transition-all',
 					isExpanded ? 'flex-row-reverse' : 'flex-row',
 				]"
 				aria-label="Toggle Config Menu"

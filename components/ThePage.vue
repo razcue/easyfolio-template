@@ -13,8 +13,7 @@ onMounted(() => {
 		<TheHeader />
 		<TheFooter />
 		<TheConfig />
-		<TheActionsWrapper>
-			<TheBody />
-		</TheActionsWrapper>
+		<TheActions />
+		<TheBody />
 	</div>
 </template>

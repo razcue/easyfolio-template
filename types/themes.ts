@@ -13,10 +13,6 @@ export const themes = {
 			"--color-border-hover": "rgba(60, 60, 60, 0.29)", // Hover border
 
 			"--color-shadow": "rgba(0, 0, 0, 0.1)", // Subtle shadow
-
-			"--modal-left-position": "calc((100vw - 560px) / 2)",
-			"--icon-top-position": "calc(50% - 25px)",
-			"--section-gap": "160px",
 		},
 		dark: {
 			"--color-bg": "#181818", // Black background
@@ -31,10 +27,6 @@ export const themes = {
 			"--color-border-hover": "rgba(84, 84, 84, 0.65)", // Hover border
 
 			"--color-shadow": "rgba(255, 255, 255, 0.1)", // Subtle white shadow
-
-			"--modal-left-position": "calc((100vw - 560px) / 2)",
-			"--icon-top-position": "calc(50% - 25px)",
-			"--section-gap": "160px",
 		},
 	},
 	neon: {
@@ -50,10 +42,6 @@ export const themes = {
 		"--color-border-hover": "rgba(68, 68, 102, 0.7)", // Hover border
 
 		"--color-shadow": "rgba(0, 224, 255, 0.3)", // Cyan glow for shadows
-
-		"--modal-left-position": "calc((100vw - 560px) / 2)",
-		"--icon-top-position": "calc(50% - 25px)",
-		"--section-gap": "160px",
 	},
 	coffee: {
 		light: {
@@ -69,10 +57,6 @@ export const themes = {
 			"--color-border-hover": "rgba(200, 182, 166, 0.7)", // Hover border
 
 			"--color-shadow": "rgba(116, 78, 54, 0.2)", // Subtle shadow
-
-			"--modal-left-position": "calc((100vw - 560px) / 2)",
-			"--icon-top-position": "calc(50% - 25px)",
-			"--section-gap": "160px",
 		},
 		dark: {
 			"--color-bg": "#3b302b", // Muted dark coffee
@@ -87,10 +71,13 @@ export const themes = {
 			"--color-border-hover": "rgba(78, 69, 62, 0.7)", // Hover border
 
 			"--color-shadow": "rgba(215, 190, 168, 0.2)", // Subtle shadow
-
-			"--modal-left-position": "calc((100vw - 560px) / 2)",
-			"--icon-top-position": "calc(50% - 25px)",
-			"--section-gap": "160px",
 		},
 	},
+};
+
+export const globalVariables = {
+	"--modal-left-position": "calc((100vw - 560px) / 2)",
+	"--icon-top-position": "calc(50% - 25px)",
+	"--section-gap": "160px",
+	"--side-to-side": "calc(((100vw - 1280px) / 2) + 5rem)",
 };

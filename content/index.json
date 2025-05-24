@@ -1,205 +1,130 @@
 {
-	"name": "Anaís Garcia Peña",
-	"role": "Community Manager | Product Manager",
+	"name": "John Doe",
+	"role": "Frontend Specialist",
 	"primaryContact": "email",
 	"contact": {
-		"email": "mahiagarcia@gmail.com",
-		"phone": "+5353606311",
-		"telegram": "https://t.me/anaisgarcia",
-		"linkedin": "https://www.linkedin.com/in/anaisgarcia"
+		"email": "johndoe@example.com",
+		"phone": "+1234567890",
+		"telegram": "https://t.me/johndoe",
+		"linkedin": "https://www.linkedin.com/in/johndoe"
 	},
-	"coverLetter": "I am a 39 years old woman, Cuban, with experience in the administration, support and construction of web sites using web sites builders (Drupal, WordPress); social network marketing and content management. Deep background as product manager, leading small teams and software testing, looking for new opportunities with strong foundation companies and competitive teams with well-defined roles.",
+	"coverLetter": "I am a highly skilled frontend specialist with a strong background in building interactive and user-friendly web applications. I have a passion for creating efficient, dynamic, and visually appealing user interfaces while adhering to modern development practices.",
 	"skills": {
 		"tools": [
-			"Meta",
-			"GitHub",
-			"SQL",
-			"Visual Paradigm",
-			"Adobe Illustrator",
-			"Adobe Photoshop",
+			"React",
+			"Vue.js",
+			"Angular",
+			"Git",
 			"Figma",
-			"Corel Draw",
-			"WordPress",
-			"Office Suite"
+			"Adobe XD",
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"TypeScript"
 		],
-		"languages": ["Spanish (Native)", "English (Conversational)"],
-		"methodologies": ["SCRUM"],
+		"languages": ["English (Fluent)", "Lorem Ipsum (Conversational)"],
+		"methodologies": ["Agile", "SCRUM"],
 		"otherSkills": [
-			"Planning",
-			"Organization",
+			"UI/UX Design",
 			"Problem-Solving",
-			"Discretion",
-			"Team Coordination"
+			"Team Collaboration",
+			"Attention to Detail",
+			"Time Management"
 		]
 	},
 	"summary": {
 		"profile": [
-			"Accomplished, resourceful, results-driven, and highly motivated product manager and tester with over 12 years of experience within the IT sector, including more than 5 years as freelancer.",
-			"Strong foundation as analyst, knowledge of 2D graphic design, UX, and website building.",
-			"Proven ability to lead small teams, track features, and manage the development lifecycle."
+			"Experienced, detail-oriented, and innovative frontend developer with over 8 years of experience in creating dynamic web applications.",
+			"Proficient in modern frontend frameworks and libraries such as React, Vue.js, and Angular.",
+			"Committed to delivering user-centric solutions and collaborating with cross-functional teams to achieve project goals."
 		],
 		"managementBackground": [
-			"Experience as project manager within small teams, mostly focused on eCommerce and business websites.",
-			"Strong analytical, problem-solving, relationship-building, planning, mentoring, negotiation, teamwork, communication, coordination, and organizational skills."
+			"Led small teams in web application development projects, ensuring on-time delivery and code quality.",
+			"Strong skills in mentoring junior developers and fostering productive team collaboration."
 		],
 		"technicalBackground": [
-			"Strong website management experience, with a marketing background using META as a social network publishing tool.",
-			"Expertise in building stores and small business front pages using WordPress and WooCommerce with payment gateways."
+			"Expert in frontend development with a strong focus on responsive design and accessibility.",
+			"Hands-on experience in integrating RESTful APIs and optimizing web performance."
 		]
 	},
 	"portfolio": [
 		{
-			"name": "Havana Grill Website",
-			"url": "https://havanagrill.us/"
+			"name": "Project Lorem Ipsum",
+			"url": "https://projectloremipsum.com/"
 		},
 		{
-			"name": "Aqua Bar and Grill Website",
-			"url": "https://www.aquabarandgrilllv.com/"
+			"name": "Dolor Sit Amet",
+			"url": "https://dolorsitamet.dev/"
 		},
 		{
-			"name": "Havana Grill Facebook Page",
-			"url": "https://www.facebook.com/HavanaGrillCubanCuisineLasVegasNevada"
+			"name": "Consectetur Website",
+			"url": "https://consectetur.io/"
 		},
 		{
-			"name": "Aqua Bar and Grill Facebook Page",
-			"url": "https://www.facebook.com/aquabargrilllv"
+			"name": "Adipiscing Elit",
+			"url": "https://adipiscingelit.org/"
 		}
 	],
 	"education": [
 		{
-			"title": "Bachelor in Informatics",
-			"institution": "Politécnico ‘Fernando Aguado y Rico’",
-			"date": ""
+			"title": "Bachelor in Computer Science",
+			"institution": "Lorem Ipsum University",
+			"date": "2020"
 		},
 		{
-			"title": "Computer Science Engineer",
-			"institution": "University of Informatics Sciences (UCI), Havana",
-			"date": ""
+			"title": "Diploma in Frontend Development",
+			"institution": "Dolor Sit Amet Academy",
+			"date": "2018"
 		},
 		{
-			"title": "Diploma in Foreign Trade",
-			"institution": "Instituto de Comercio Exterior",
-			"date": "Jan 2016"
-		},
-		{
-			"title": "Air Ticketing with Amadeus",
-			"institution": "Amadeus Certified, Spain",
-			"date": "May 2015"
-		},
-		{
-			"title": "Marketing & Public Relations",
-			"institution": "FORMATUR",
-			"date": "Mar 2014"
-		},
-		{
-			"title": "Information Security",
-			"institution": "FORMATUR",
-			"date": "Dec 2013"
-		},
-		{
-			"title": "Network Administration",
-			"institution": "UCI",
-			"date": "Jan 2011"
-		},
-		{
-			"title": "Symfony Framework for PHP",
-			"institution": "UCI",
-			"date": "May 2011"
+			"title": "Certificate in UI/UX Design",
+			"institution": "Consectetur Design Institute",
+			"date": "2017"
 		}
 	],
 	"languages": [
-		{ "name": "Spanish", "level": "Native" },
-		{ "name": "English", "level": "Conversational" }
+		{ "name": "English", "level": "Fluent" },
+		{ "name": "Lorem Ipsum", "level": "Conversational" }
 	],
 	"experience": [
 		{
-			"company": "Agency Marítima Taíná S.A.",
-			"duration": "Aug 2017 – Present",
-			"role": "Commercial Specialist",
+			"company": "Lorem Ipsum Tech",
+			"duration": "Jan 2021 – Present",
+			"role": "Frontend Specialist",
+			"project": "Building a Responsive Dashboard",
+			"technologies": ["React", "TypeScript", "CSS-in-JS"],
 			"responsibilities": [
-				"Managed customer relationships and ensured effective communication to meet their logistical needs for maritime cargo transportation.",
-				"Coordinated import and export operations, including containerized goods, through international shipping lines such as HAPAG LLOYD.",
-				"Provided financial oversight for contracts and ensured compliance with international trade regulations."
+				"Designed and implemented responsive user interfaces for web applications using React and TypeScript.",
+				"Collaborated with backend developers to integrate RESTful APIs and GraphQL endpoints.",
+				"Optimized web performance and ensured cross-browser compatibility."
 			]
 		},
 		{
-			"company": "Maprinter",
-			"duration": "Nov 2015",
-			"role": "Marketing Specialist for Imports",
+			"company": "Dolor Sit Amet Inc.",
+			"duration": "Feb 2018 – Dec 2020",
+			"role": "Frontend Developer",
+			"project": "E-commerce Platform Development",
+			"technologies": ["Vue.js", "SCSS", "BEM"],
 			"responsibilities": [
-				"Developed and implemented marketing strategies to promote imported products across various distribution channels.",
-				"Conducted market analysis to identify trends and opportunities for increasing brand presence and sales revenue.",
-				"Collaborated with international suppliers to streamline the import process and ensure timely delivery of goods."
+				"Developed reusable components and styled components using modern CSS methodologies such as BEM and CSS-in-JS.",
+				"Participated in code reviews and provided mentorship to junior developers.",
+				"Worked closely with the design team to ensure consistent branding and UI/UX design principles."
 			]
 		},
 		{
-			"company": "Agencia de Viajes San Cristóbal",
-			"duration": "2014",
-			"role": "IT Specialist, Security Specialist, Assistant",
+			"company": "Adipiscing Elit Solutions",
+			"duration": "May 2016 – Jan 2018",
+			"role": "Web Developer",
+			"project": "Corporate Website Redesign",
+			"technologies": ["HTML", "CSS", "JavaScript"],
 			"responsibilities": [
-				"Provided IT support for the agency's operations, including system administration and troubleshooting.",
-				"Ensured the security of the agency's IT infrastructure by implementing measures to protect against cyber threats.",
-				"Assisted in administrative tasks and provided technical support for online booking systems."
-			]
-		},
-		{
-			"company": "Instituto Cubano del Libro",
-			"duration": "2004 – 2005",
-			"role": "IT Specialist",
-			"responsibilities": [
-				"Managed and maintained the institute's IT systems, ensuring the availability of resources for staff and researchers.",
-				"Designed and implemented solutions for data management and digitalization of archives.",
-				"Provided technical support to staff and conducted training sessions on IT best practices."
-			]
-		},
-		{
-			"company": "University of Informatics Sciences (UCI)",
-			"duration": "2006 – 2013",
-			"role": "System Analyst, IT Generalist",
-			"responsibilities": [
-				"Analyzed, designed, and maintained software solutions tailored to academic and administrative needs.",
-				"Managed IT resources, including network administration, server maintenance, and data security.",
-				"Led projects to enhance the university's IT infrastructure and improve service delivery for students and staff."
-			]
-		},
-		{
-			"company": "German Trade and Investment Promotion Office in Cuba (Freelancer)",
-			"duration": "3 months",
-			"project": "Analysis and development of Green Tech Cuba site",
-			"role": "Product Manager",
-			"technologies": [
-				"WordPress",
-				"PHP",
-				"Drupal",
-				"Visual Paradigm",
-				"Figma",
-				"GitHub"
-			],
-			"responsibilities": [
-				"Ensured the product delivered by development and design teams met the expectations of the client.",
-				"Collaborated with clients to define product objectives and strategies.",
-				"Created mockups and prototypes using Figma."
-			]
-		},
-		{
-			"company": "Havana Grill Restaurant, Las Vegas (Freelancer)",
-			"duration": "1 year",
-			"project": "Design, construction, and management of Havana Grill",
-			"role": "Analyst, software designer, web master, content manager",
-			"technologies": ["WordPress", "WooCommerce", "GoDaddy"],
-			"responsibilities": [
-				"Designed the website based on client requirements and user experience principles.",
-				"Built and deployed the eCommerce site using WooCommerce/WordPress on GoDaddy platform.",
-				"Provided ongoing content updates and technical support for the site."
+				"Built and maintained responsive websites using HTML, CSS, and JavaScript.",
+				"Integrated third-party APIs and ensured SEO best practices were followed.",
+				"Collaborated with clients to understand project requirements and deliver tailored solutions."
 			]
 		}
 	],
-	"interests": [
-		{ "name": "Family", "icon": "IconFamily" },
-		{ "name": "Restaurants", "icon": "IconRestaurant" },
-		{ "name": "Church", "icon": "IconChurch" },
-		{ "name": "Travel", "icon": "IconTravel" }
-	],
+	"interests": ["coding", "design", "travel", "gaming"],
 	"availability": {
 		"travel": "Yes",
 		"relocate": "No"

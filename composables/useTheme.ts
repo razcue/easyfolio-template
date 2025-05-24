@@ -8,9 +8,18 @@ export const useTheme = () => {
 
 		const themeVars = themes[theme][mode] || themes[theme];
 
+		// Only run this on the client-side
 		if (themeVars && import.meta.client) {
-			// Only run this on the client-side
+			// Set theme-specific variables
 			Object.entries(themeVars).forEach(([key, value]) => {
+				document.documentElement.style.setProperty(
+					key,
+					value as string,
+				);
+			});
+
+			// Set global variables
+			Object.entries(globalVariables).forEach(([key, value]) => {
 				document.documentElement.style.setProperty(
 					key,
 					value as string,
