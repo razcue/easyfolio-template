@@ -22,7 +22,6 @@
 			"JavaScript",
 			"TypeScript"
 		],
-		"languages": ["English (Fluent)", "Lorem Ipsum (Conversational)"],
 		"methodologies": ["Agile", "SCRUM"],
 		"otherSkills": [
 			"UI/UX Design",
@@ -58,11 +57,13 @@
 		},
 		{
 			"name": "Consectetur Website",
-			"url": "https://consectetur.io/"
+			"url": "https://consectetur.io/",
+			"icon": "i-tabler-device-tablet-dollar"
 		},
 		{
 			"name": "Adipiscing Elit",
-			"url": "https://adipiscingelit.org/"
+			"url": "https://adipiscingelit.org/",
+			"icon": "i-tabler-cloud-data-connection"
 		}
 	],
 	"education": [
@@ -79,7 +80,8 @@
 		{
 			"title": "Certificate in UI/UX Design",
 			"institution": "Consectetur Design Institute",
-			"date": "2017"
+			"date": "2017",
+			"url": "https://uiux.org/cert/effu342r46gr54gfg7"
 		}
 	],
 	"languages": [
@@ -103,8 +105,6 @@
 			"company": "Dolor Sit Amet Inc.",
 			"duration": "Feb 2018 – Dec 2020",
 			"role": "Frontend Developer",
-			"project": "E-commerce Platform Development",
-			"technologies": ["Vue.js", "SCSS", "BEM"],
 			"responsibilities": [
 				"Developed reusable components and styled components using modern CSS methodologies such as BEM and CSS-in-JS.",
 				"Participated in code reviews and provided mentorship to junior developers.",
@@ -115,7 +115,6 @@
 			"company": "Adipiscing Elit Solutions",
 			"duration": "May 2016 – Jan 2018",
 			"role": "Web Developer",
-			"project": "Corporate Website Redesign",
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"responsibilities": [
 				"Built and maintained responsive websites using HTML, CSS, and JavaScript.",
@@ -124,7 +123,21 @@
 			]
 		}
 	],
-	"interests": ["coding", "design", "travel", "gaming"],
+	"interests": [
+		"coding",
+		"design",
+		"travel",
+		"gaming",
+		"music",
+		"reading",
+		"sports",
+		"photography",
+		"cooking",
+		"fitness",
+		"nature",
+		"technology",
+		"health"
+	],
 	"availability": {
 		"travel": "Yes",
 		"relocate": "No"
