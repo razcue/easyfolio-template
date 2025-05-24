@@ -218,7 +218,7 @@ function formatKey(key: string): string {
 				<article
 					v-for="(experience, index) in owner.experience"
 					:key="index"
-					class="mb-4 border-b border-gray-200 pb-3 last:border-none last:mb-0 last:pb-0"
+					class="mb-4 border-b border-[var(--color-border)] pb-3 last:border-none last:mb-0 last:pb-0"
 				>
 					<h3 class="text-xl font-semibold mb-2">
 						{{ experience.company }}
@@ -252,7 +252,7 @@ function formatKey(key: string): string {
 					<i class="i-tabler-heart text-3xl" />
 				</template>
 				<template #heading>Interests</template>
-				<ul class="flex flex-wrap gap-8">
+				<ul class="flex flex-wrap gap-x-8 gap-y-4">
 					<li
 						v-if="owner.interests.includes('coding')"
 						class="flex flex-col items-center"
